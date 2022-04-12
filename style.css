@@ -1,0 +1,159 @@
+body{
+    background-color: aqua;
+}
+
+#home{
+    background-image: url(index/background1.jpeg);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#hello{
+    font-size: 70px;
+}
+#text1{
+    text-align: center;
+    font-size: 45px;
+}
+.menu{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    float: left;
+    color: beige;
+    text-align: center;
+    padding: 30px 45px;
+    font-size: 25px;
+}
+
+.menu a:hover{
+    background-color: greenyellow;
+    color: palevioletred;
+}
+
+.menu a:visited{
+    background-color: blueviolet;
+}
+
+#aboutme{
+    padding: 30px 20px;
+    border: 5px salmon;
+}
+
+#profile img{
+    border: 10px solid chartreuse;
+    padding: 10px 15px;
+    float: left;
+}
+
+#profile p{
+    padding: 30px 30px;
+    text-align: center;
+    justify-content: center;
+    color: grey;
+    font-family: Poppins;
+    font-size: 35px;
+    word-wrap:break-word;
+}
+
+#profile h1{
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+}
+
+#education{
+    text-align: center;
+    font-size: 35px;
+}
+
+#edu {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0px;
+    background-color: rgb(15, 232, 19);
+}
+
+.pauls{
+    border: 4px solid black;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+} 
+
+.MDS{
+    border: 4px solid black;
+    padding: 5px; 
+    text-align: center;
+    justify-content: center;
+}
+
+.kgp{
+    border: 4px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#skills{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px;
+}
+
+#critical{
+    border: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+#programmer{
+    border: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+#web{
+    border: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+#z{
+    font-size: 30px;
+    text-align: center;
+}
+#s{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#headc{
+    font-size: 60px;
+    text-align: center;
+}
+
+#connect{
+    text-align: center;
+    justify-items: center;
+    padding: 40px;
+}
+#contact{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image: url(index/contact.jpg);
+    background-size: 100% 100%;
+}
+
+#f{
+    padding: 10px 0px;
+    width: auto;
+}
